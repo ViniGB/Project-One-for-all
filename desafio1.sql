@@ -4,7 +4,7 @@ CREATE SCHEMA SpotifyClone;
 CREATE TABLE SpotifyClone.Plan(
 	plan_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     plan_name VARCHAR(255) NOT NULL,
-    plan_value DOUBLE NOT NULL
+    plan_value DECIMAL(3, 2) NOT NULL
 ) ENGINE = InnoDB;
 
 CREATE TABLE SpotifyClone.Artist(
